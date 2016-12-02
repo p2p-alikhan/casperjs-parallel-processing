@@ -1,0 +1,20 @@
+{
+  "name"         : "@alikhan/casperjs-parallel-processing",
+  "version"      : "0.0.1",
+  "description"  : "Node.js Data Mining Series: Parallel Processing With Casper.js For Automating Google Search",
+  "main"         : "master.js",
+  "author"       : "Alikhan",
+  "email"		 : "p2p.alikhan@gmail.com", 	
+  "dependencies" : {   
+	"debug"    : "latest",
+	"bluebird"    : "latest",
+	"commander"    : "latest",
+	"lodash"    : "latest",	
+	"casper" : "latest",
+	"phantom" : "latest",
+	"util" : "latest"	
+},
+  "scripts": {
+    "start": "DEBUG=main:* node master.js"
+  }	
+}
